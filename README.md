@@ -1,6 +1,3 @@
-# University Website using ReactJS
-
-
 # University Website React Project
 
 This repository contains a ReactJS-based project for a **University Website**. It demonstrates a responsive, modern design tailored to educational institutions, showcasing key features such as courses, faculties, and more.
