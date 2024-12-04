@@ -16,7 +16,9 @@ const Campus = () => {
         <img src={gallery_4} alt="" />
       </div>
       <button className="btn dark-btn">
-        See more here <img src={white_arrow} alt="" />
+        <a href="https://theuniversitywebsite.netlify.app/">
+          See more here <img src={white_arrow} alt="" />
+        </a>
       </button>
     </div>
   );
