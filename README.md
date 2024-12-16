@@ -17,31 +17,49 @@ This repository contains a ReactJS-based project for a **University Website**. I
 ## 📂 Folder Structure
 
 ```
-University-Website-React/
-├── public/
-│   ├── index.html              # Main HTML file
-│   └── assets/                 # Static assets (images, icons, etc.)
-│
-├── src/
-│   ├── components/             # Reusable components (Navbar, Footer, etc.)
-│   │   ├── Navbar.js           # Example component
-│   │   └── Footer.js           # Example component
-│   │
-│   ├── pages/                  # Individual pages (Home, About, Courses, etc.)
-│   │   ├── Home.js             # Home page
-│   │   ├── About.js            # About page
-│   │   └── Courses.js          # Courses page
-│   │
-│   ├── assets/                 # Static assets (images, fonts, etc.)
-│   │   └── logo.png            # Example logo
-│   │
-│   ├── App.js                  # Main App component
-│   ├── index.js                # Entry point for React app
-│   └── App.css                 # Global styles (optional)
-│
-├── package.json                # Project dependencies and scripts
-├── .gitignore                  # Git ignore file
-└── README.md                   # Project documentation
+└── University-Website-React
+    ├── index.html
+    ├── eslint.config.js
+    ├── package.json
+    ├── vite.config.js
+    ├── README.md
+    └── src
+        ├── App.jsx
+        ├── index.css
+        ├── assets
+        │   └── college-video.mp4
+        ├── components
+        │   ├── testimonials
+        │   │   ├── Testimonials.jsx
+        │   │   └── Testimonials.css
+        │   ├── footer
+        │   │   ├── Footer.jsx
+        │   │   └── Footer.css
+        │   ├── hero
+        │   │   ├── Hero.css
+        │   │   └── Hero.jsx
+        │   ├── title
+        │   │   ├── Title.css
+        │   │   └── Title.jsx
+        │   ├── videoPlayer
+        │   │   ├── VideoPlayer.css
+        │   │   └── VideoPlayer.jsx
+        │   ├── contact
+        │   │   ├── Contact.jsx
+        │   │   └── Contact.css
+        │   ├── about
+        │   │   ├── About.jsx
+        │   │   └── About.css
+        │   ├── programs
+        │   │   ├── Programs.css
+        │   │   └── Programs.jsx
+        │   ├── campus
+        │   │   ├── Campus.jsx
+        │   │   └── Campus.css
+        │   └── navbar
+        │       ├── Navbar.css
+        │       └── Navbar.jsx
+        └── main.jsx
 ```
 
 ## 💻 Getting Started
