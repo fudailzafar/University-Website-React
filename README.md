@@ -10,7 +10,7 @@ This repository contains a ReactJS-based project for a **University Website**. I
   
 ## 🛠️ Tech Stack
 - **Frontend:** ReactJS (with Hooks)
-- **Styling:** CSS/SCSS or styled-components (mention what you've used)
+- **Styling:** Vanilla CSS
 - **Routing:** React Router
 
 
